@@ -1,0 +1,71 @@
+.a {
+  display: flex;
+  flex-direction: row;
+  background: black;
+  height: 100vh;
+  .b {
+    background-color: lightblue;
+    width: 25%;
+    font-size: 200%;
+    .link {
+      &:hover {
+        background-color: lightslategray;
+        
+      }
+    }
+  }
+  .c {
+    background-color: greenyellow;
+    width: 75%;
+    .d {
+      background-image: url(./3.jpg);
+      background-size: contain;
+      background-color: green;
+      height: 25%;
+    }
+    .e {
+      background-color: indianred;
+      height: 75%;
+      display: flex;
+
+      .g {
+        width: 75%;
+        background-color: white;
+        .i {
+          height: 75%;
+          justify-content: center;
+          display: flex;
+          .form {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(139, 163, 98);
+            width: 40%;
+            margin: 20px;
+            padding: 15px;
+            label {
+              padding: 5px;
+            }
+            input {
+              padding: 5px;
+            }
+            .btn {
+              border-radius: 70px;
+              background-color: burlywood;
+              width: 30%;
+              margin-left: 35%;
+              margin-top: 2%;
+            }
+          }
+        }
+        .j {
+          background-color: brown;
+          height: 25%;
+        }
+      }
+      .h {
+        width: 25%;
+        background-color: bisque;
+      }
+    }
+  }
+}

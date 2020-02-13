@@ -1,0 +1,97 @@
+.a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: black;
+  height: 100vh;
+}
+
+.a .b {
+  background-color: lightblue;
+  width: 25%;
+  font-size: 200%;
+}
+
+.a .b .link:hover {
+  background-color: lightslategray;
+}
+
+.a .c {
+  background-color: greenyellow;
+  width: 75%;
+}
+
+.a .c .d {
+  background-image: url(./3.jpg);
+  background-size: contain;
+  background-color: green;
+  height: 25%;
+}
+
+.a .c .e {
+  background-color: indianred;
+  height: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.a .c .e .g {
+  width: 75%;
+  background-color: white;
+}
+
+.a .c .e .g .i {
+  height: 75%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.a .c .e .g .i .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #8ba362;
+  width: 40%;
+  margin: 20px;
+  padding: 15px;
+}
+
+.a .c .e .g .i .form label {
+  padding: 5px;
+}
+
+.a .c .e .g .i .form input {
+  padding: 5px;
+}
+
+.a .c .e .g .i .form .btn {
+  border-radius: 70px;
+  background-color: burlywood;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 2%;
+}
+
+.a .c .e .g .j {
+  background-color: brown;
+  height: 25%;
+}
+
+.a .c .e .h {
+  width: 25%;
+  background-color: bisque;
+}
+/*# sourceMappingURL=2.css.map */
